@@ -50,4 +50,7 @@ body{
   cursor: pointer;
 }
 
-.to
+.todoList {
+  flex: 70%;
+  width: 100%;
+}

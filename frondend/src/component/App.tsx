@@ -1,8 +1,15 @@
-import React, {FC} from 'react';
+import React, {FC, useState } from 'react';
 import './App.css';
 
-
 const App: FC = () => {
+
+   const [task, setTask] = useState<string>("");
+   const [deadline, setDealine] = useState<number>("0");
+   const [todo, setToDoList] = useState([])
+
+   const handleChange = () => {}
+
+
     return (
         <div className="App">
             <div className="header">
