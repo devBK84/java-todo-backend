@@ -25,6 +25,12 @@ const App: FC = () => {
         // console.log(todoList)
     };
 
+    const completeTask = (taskNameToDelete: string): void => {
+        setToDoList(todoList.filter((task) =>{
+            return task.taskName != taskNameToDelete
+        }))
+    }
+
     return (
         <div className="App">
             <div className="header">

@@ -6,8 +6,15 @@ interface props {
 }
 
 const ToDoTask = ({task}:props) => {
-    return <div>{task.taskName}</div>;
-
+    return (
+    <div className="task">
+        <div className="content">
+            <span>{task.taskName}</span>
+            <span>{task.deadline}</span>
+        </div>
+        <button>X</button>
+    </div>
+);
 };
 
 export default ToDoTask;
