@@ -8,7 +8,6 @@
 }
 
 body{
-
   margin: 0%;
   padding: 0%;
 }
@@ -22,12 +21,10 @@ body{
   align-items: center;
 }
 
-
 .header .inputContainer {
   display: flex;
   flex-direction: column;
 }
-
 
 .header input {
   width: 200px;
