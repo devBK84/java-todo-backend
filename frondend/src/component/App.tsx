@@ -11,6 +11,7 @@ const App: FC = () => {
 
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
+        //nice
         if (event.target.name === "task") {
             setTask(event.target.value)
         } else {
@@ -22,6 +23,7 @@ const App: FC = () => {
         setToDoList([...todoList, newTask])
         setTask("")
         setDeadline(0)
+        //Ungenutzen Code entfernen
         // console.log(todoList)
     };
 
